@@ -5,7 +5,7 @@ from pathlib import Path
 def organize_files(directory):
     """Organize files in a directory by their extensions"""
     
-    # Define file type categories and their extensions
+    # Define file type categories and their extensions, but be very careful.
     file_types = {
         "images": [".jpg", ".png", ".gif"],
         "documents": [".pdf", ".docx", ".txt"],
