@@ -9,7 +9,7 @@ def organize_files(directory):
     file_types = {
         "images": [".jpg", ".png", ".gif"],
         "documents": [".pdf", ".docx", ".txt"],
-        "audio": [".mp3", ".wav", "flac"],
+        "audio": [".mp3", ".wav"],
         "videos": [".mp4", ".mov"],
         "archives": [".zip", ".rar"]
     }
