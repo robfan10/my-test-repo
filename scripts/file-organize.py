@@ -7,7 +7,7 @@ def organize_files(directory):
     
     # Define file type categories and their extensions, but be very careful.
     file_types = {
-        "images": [".jpg", ".png", ".gif"],
+        "images": [".jpg", ".png", ".gif", "jpeg"],
         "documents": [".pdf", ".docx", ".txt"],
         "audio": [".mp3", ".wav"],
         "videos": [".mp4", ".mov"],
