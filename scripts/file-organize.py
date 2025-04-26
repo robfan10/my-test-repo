@@ -30,7 +30,7 @@ def organize_files(directory):
                 if file_ext in extensions:
                     dest = Path(directory) / category / item.name
                     shutil.move(str(item), str(dest))  # Move file to category folder
-                    print(f"Moved {item.name} to {category}")  # Log action
+                    print(f"Moved {item.name} to {category}")  # Log action this time
                     moved = True
                     break
             
